@@ -1,0 +1,111 @@
+$f:'Myriad Pro';
+$c: 'Corbel';
+$s: 'Seaside Resort NF';
+.text-center {
+    text-align: center;
+}
+
+body {
+    font-family: 'Myriad Pro';
+    font-size: 30px;
+    color: #4a4a4a;
+}
+
+.img-responsive {
+    display: initial;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.header {
+    padding-top: 60px;
+    &:after {
+        content: "";
+        background: url(../images/border.png) repeat-x;
+        height: 7px;
+        display: block;
+        margin-top: 124px;
+    }
+    .header-text {
+        position: relative;
+        min-height: 390px;
+        text-align: center;
+        h1 {
+            margin: 0;
+            font-size: 350px;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#deb265+0,f9eba1+50,ddb064+100 */
+            background: rgb(222, 178, 101);
+            /* Old browsers */
+            background: -moz-linear-gradient(top, rgba(222, 178, 101, 1) 0%, rgba(249, 235, 161, 1) 50%, rgba(221, 176, 100, 1) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(222, 178, 101, 1) 0%, rgba(249, 235, 161, 1) 50%, rgba(221, 176, 100, 1) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(222, 178, 101, 1) 0%, rgba(249, 235, 161, 1) 50%, rgba(221, 176, 100, 1) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deb265', endColorstr='#ddb064', GradientType=0);
+            /* IE6-9 */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        p {
+            margin: 0;
+            font-size: 59px;
+            font-family: $s;
+            color: #ddb064;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+    }
+    a.logo {
+        margin-top: 20px;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+}
+
+.main-content {
+    padding-top: 80px;
+    ul {
+        margin-bottom: 60px;
+        li {
+            font-size: 34px;
+            span {
+                color: #e2ba6d;
+            }
+        }
+    }
+}
+
+.thanks {
+    background: url(../images/thankyou.png) no-repeat;
+    background-size: 100%;
+    text-align: center;
+    min-height: 14.494875549048317vw;
+    font-family: $s;
+    color: #ddb064;
+    font-size: 1.7569546120058566vw;
+    position: relative;
+    margin-top: 200px;
+    span {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 35%;
+    }
+}
