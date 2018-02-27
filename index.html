@@ -10,26 +10,23 @@
     <meta name="keywords" content="keywords,here">
     <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
     <title>Invoice</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
-    <link href="fonts/stylesheet.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <style>
+    .text-center{text-align:center}@font-face{font-family:'Myriad Pro';src:url("fonts/MyriadPro-Regular.woff2") format("woff2"),url("fonts/MyriadPro-Regular.woff") format("woff"),url("fonts/MyriadPro-Regular.ttf") format("truetype");font-weight:normal;font-style:normal}body{font-family:'Myriad Pro';font-size:30px;color:#4a4a4a;margin:0}.img-responsive{display:initial}ul{padding:0;margin:0;list-style:none;text-align:left}.container{width:1170px;margin:0 auto}.padding{padding:0 15px;float:left;-webkit-box-sizing:border-box;box-sizing:border-box}.col-lg-8{width:66.66666667%}.col-lg-4{width:33.33333333%}.col-lg-7{width:58.33333333%}.col-lg-5{width:41.66666667%}.header{padding-top:60px}.header .border-bottom{padding-top:124px;clear:both}.header a.logo{margin-top:20px;display:inline-block;margin-bottom:25px}.main-content{padding-top:80px;clear:both}.main-content ul{padding-bottom:60px}.main-content ul li{font-size:34px}.main-content ul li span{color:#e2ba6d}.total{float:left;width:20%}.price{float:left;width:80%}.price img{display:block}.thanks{margin-bottom:50px;clear:both}
+
+    
+    </style>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-7 col-sm-6">
+                <div class="col-lg-8 padding">
                     <div class="header-text text-center">
                         <img src="images/hello.png" class="img-responsive" style="width: 100%" alt="">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 col-sm-6">
+                <div class="col-lg-4 padding">
                     <div class="text-center">
                         <a href="#" class="logo"><img src="images/logo.png" class="img-responsive" alt=""></a>
                         <div class="address">
@@ -44,11 +41,12 @@
                 </div>
             </div>
         </div>
+        <div class="border-bottom"><img style="width: 100%" src="images/bordr2.png" alt=""></div>
     </header>
     <main class="main-content">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-7">
+                <div class="col-lg-7 padding">
                     <ul>
                         <li>Bank Name: TEXT HERE</li>
                         <li>Branch Name: TEXT HERE</li>
@@ -56,18 +54,6 @@
                         <li>Bank Tel: Number Here</li>
                         <li>Branch Address: Text Here</li>
                     </ul>
-                    
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-5">
-                    <ul>
-                        <li>Puppy: $700.00 USD</li>
-                        <li>Delivery : $25.00 USD</li>
-                        <li>Neuter: N/A</li>
-                        <li>Nanny:N/A</li>
-                        <li>Special Request: N/A</li>
-                    </ul>
-                </div>
-                <div class="col-xs-12">
                     <ul>
                         <li>SWIFTCODE: TEXTTEXT</li>
                         <li><span>Client Account Number:  Number HERE</span></li>
@@ -78,19 +64,25 @@
                         <li><span>Client phone: Number Here	</span></li>
                     </ul>
                 </div>
+                <div class="col-lg-5 padding">
+                    <ul>
+                        <li>Puppy: $700.00 USD</li>
+                        <li>Delivery : $25.00 USD</li>
+                        <li>Neuter: N/A</li>
+                        <li>Nanny:N/A</li>
+                        <li>Special Request: N/A</li>
+                    </ul>
+                    <ul>
+                        <li><div class="total">Total:</div> <div class="price">$ USD <img src="images/border.png" alt=""></div></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </main>
     <footer>
-        <div class="thanks">
-            <span>thank <br>you</span>
-        </div>
+        <img class="thanks" style="width: 100%;" src="images/thankyou.png" alt="">
     </footer>
-    <!--
-    <script src="js/jquery.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/custom.js" type="text/javascript"></script>
--->
+    
 </body>
 
 </html>
