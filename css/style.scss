@@ -1,18 +1,19 @@
-
 .text-center {
     text-align: center;
 }
+
 @font-face {
     font-family: 'Myriad Pro';
     src: url('fonts/MyriadPro-Regular.woff2') format('woff2'),
-        url('fonts/MyriadPro-Regular.woff') format('woff'),
-        url('fonts/MyriadPro-Regular.ttf') format('truetype');
+    url('fonts/MyriadPro-Regular.woff') format('woff'),
+    url('fonts/MyriadPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 body {
     font-family: 'Myriad Pro';
-    font-size: 30px;
+    font-size: 26px;
     color: #4a4a4a;
     margin: 0;
 }
@@ -27,27 +28,31 @@ ul {
     list-style: none;
     text-align: left;
 }
-.container{
-    width: 1170px;
+
+.container {
+    width: 990px;
     margin: 0 auto;
 }
 
-.padding{
+.padding {
     padding: 0 15px;
     float: left;
     box-sizing: border-box;
 }
-.col-lg-8{
+
+.col-lg-8 {
     width: 66.66666667%;
 }
-.col-lg-4{
+
+.col-lg-4 {
     width: 33.33333333%;
 }
-.col-lg-7{
+
+.col-lg-7 {
     width: 58.33333333%;
 }
 
-.col-lg-5{
+.col-lg-5 {
     width: 41.66666667%;
 }
 
@@ -57,6 +62,9 @@ ul {
     .border-bottom {
         padding-top: 124px;
         clear: both;
+    }
+    .header-text {
+        margin-top: 48px;
     }
     a.logo {
         margin-top: 20px;
@@ -72,24 +80,27 @@ ul {
     ul {
         padding-bottom: 60px;
         li {
-            font-size: 34px;
+            //            font-size: 34px;
             span {
                 color: #e2ba6d;
             }
         }
     }
 }
-.total{
+
+.total {
     float: left;
     width: 20%;
 }
-.price{
+
+.price {
     float: left;
     width: 80%;
-    img{
+    img {
         display: block;
     }
 }
+
 .thanks {
     margin-bottom: 50px;
     clear: both;

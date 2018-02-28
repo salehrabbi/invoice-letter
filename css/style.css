@@ -1,1 +1,36 @@
-.text-center{text-align:center}@font-face{font-family:'Myriad Pro';src:url("fonts/MyriadPro-Regular.woff2") format("woff2"),url("fonts/MyriadPro-Regular.woff") format("woff"),url("fonts/MyriadPro-Regular.ttf") format("truetype");font-weight:normal;font-style:normal}body{font-family:'Myriad Pro';font-size:30px;color:#4a4a4a;margin:0}.img-responsive{display:initial}ul{padding:0;margin:0;list-style:none;text-align:left}.container{width:1170px;margin:0 auto}.padding{padding:0 15px;float:left;-webkit-box-sizing:border-box;box-sizing:border-box}.col-lg-8{width:66.66666667%}.col-lg-4{width:33.33333333%}.col-lg-7{width:58.33333333%}.col-lg-5{width:41.66666667%}.header{padding-top:60px}.header .border-bottom{padding-top:124px;clear:both}.header a.logo{margin-top:20px;display:inline-block;margin-bottom:25px}.main-content{padding-top:80px;clear:both}.main-content ul{padding-bottom:60px}.main-content ul li{font-size:34px}.main-content ul li span{color:#e2ba6d}.total{float:left;width:20%}.price{float:left;width:80%}.price img{display:block}.thanks{margin-bottom:50px;clear:both}
+.text-center { text-align: center; }
+
+@font-face { font-family: 'Myriad Pro'; src: url("fonts/MyriadPro-Regular.woff2") format("woff2"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+body { font-family: 'Myriad Pro'; font-size: 26px; color: #4a4a4a; margin: 0; }
+
+.img-responsive { display: initial; }
+
+ul { padding: 0; margin: 0; list-style: none; text-align: left; }
+
+.container { width: 990px; margin: 0 auto; }
+
+.padding { padding: 0 15px; float: left; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.col-lg-8 { width: 66.66666667%; }
+
+.col-lg-4 { width: 33.33333333%; }
+
+.col-lg-7 { width: 58.33333333%; }
+
+.col-lg-5 { width: 41.66666667%; }
+
+.header { padding-top: 60px; }
+.header .border-bottom { padding-top: 124px; clear: both; }
+.header .header-text { margin-top: 48px; }
+.header a.logo { margin-top: 20px; display: inline-block; margin-bottom: 25px; }
+
+.main-content { padding-top: 80px; clear: both; }
+.main-content ul { padding-bottom: 60px; }
+.main-content ul li span { color: #e2ba6d; }
+
+.total { float: left; width: 20%; }
+
+.price { float: left; width: 80%; }
+.price img { display: block; }
+
+.thanks { margin-bottom: 50px; clear: both; }
